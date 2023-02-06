@@ -1,0 +1,18 @@
+.col-4{
+    overflow: hidden;
+}
+.extra{
+    transition: 0.3s ease-in-out;
+
+}
+.extra:hover{
+    transform: scale(1.2);
+}
+.texts{
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #00FFDD;
+}
+body{
+    background-color: #21325E;
+}

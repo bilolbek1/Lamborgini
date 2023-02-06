@@ -1,0 +1,208 @@
+/* NAVBAR---SECTIN */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #2d394b;
+    padding: 10px;
+    
+}
+.car > .bi{
+    width: 120px;
+    height: 70px;
+    color: #F5EDCE;
+    margin-left: 20px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    
+}
+.bi:hover{
+    color: #00AF91;
+}
+.n_text{
+    width: 40vw;
+}
+.navbar-text{
+    position: relative;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 3vw;
+    color: #00FFF6;
+}
+.navbar-text:hover{
+    color: #DDFFBC;
+}
+.navbar-text::before{
+    transition: 0.4s ease-in-out;
+    content: '';
+    width: 0%;
+    border-radius: 20px;
+    height: 4px;
+    position: absolute;
+    background-color: #DDFFBC;
+    top: 33px;
+}
+.navbar-text:hover::before{
+    width: 100%;
+}
+
+/* NAVBAR--SECTIN--END */
+
+
+/* HOME--SECTION */
+
+.home{
+    margin-top: 85px;
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    background-color: #2d394b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card-img-top{
+    border-radius: 20px;
+}
+.card1{
+    border: 1px solid wheat;
+    font-weight: 600;
+    color: #30E3DF;
+    height: 350px;
+    position: relative;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 30px 30px #F2CD5C,0px 0px 30px 30px #F2CD5C,0px 0px 30px 30px #F2CD5C,0px 0px 30px 30px #F2CD5C;
+    animation-direction: alternate;
+    top: 70px;
+    border-radius: 20px;
+}
+.card2{
+    border: 1px solid wheat;
+    font-weight: 600;
+    color: #30E3DF;
+    height: 350px;
+    position: relative;
+    top: 70px;
+    border-radius: 20px;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+
+@keyframes anim{
+    0%{
+      box-shadow: 0 0 10px #47B5FF, 0 0 20px #47B5FF, 0 0 30px #47B5FF, 0 0 40px #37E2D5, 0 0 70px #37E2D5, 0 0 80px #37E2D5, 0 0 100px #37E2D5, 0 0 150px #37E2D5;
+
+    }
+    100%{
+      box-shadow: 0 0 5px #47B5FF, 0 0 10px #47B5FF, 0 0 15px #47B5FF, 0 0 20px #37E2D5, 0 0 35px #37E2D5, 0 0 40px #37E2D5, 0 0 50px #37E2D5, 0 0 75px #37E2D5;
+
+    }
+    
+}
+
+
+
+  
+  
+
+/* HOME-SECTION-END */
+
+
+/* ABOUT-SECTION */
+
+.d-block{
+    width: 100%;
+}
+.about_p1{
+    color: #A6F6F1;
+    font-weight: 600;
+}
+.about_p2{
+    color: #FFA931;
+    font-weight: 600;
+}
+.about_p3{
+    color: #F7FBE1;
+    font-weight: 600;
+}
+.about_h1{
+    color: #FF9595;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+/* ABOUT-SECTION-END */
+
+
+
+/* COMPANY-SECTION */
+
+
+
+.accordion-body{
+    background-color: #2d394b;
+    color: #00FFF6 !important;
+}
+.accordion-button{
+    background-color: #2d394b;
+    color: #A66CFF;
+    border: none;
+}
+
+/* COMPANY-SECTION-END*/
+
+
+
+/* FOOTER-SECTION */
+
+
+.footer_p{
+    color: #D3EBCD;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.footer{
+    background-color: #2d394b;
+    color: #F2CD5C;
+    margin-bottom: 50px;
+}
+.footer_p:hover{
+    color: #000000;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+    
+}
+.form-control:hover{
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+}
+
+body{
+    background-color: #2d394b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
